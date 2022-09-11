@@ -103,8 +103,8 @@ if (isnan(h) || isnan(t))
 
    Serial.println("Waiting...");    
   // thingspeak needs minimum 15 sec delay between updates
-  // Here I set upload every 20 seconds
-  for(unsigned int i = 0; i < 20; i++)
+  // Here I set upload every 60 seconds
+  for(unsigned int i = 0; i <60; i++)
   {
     delay(1000);                         
   }                       
